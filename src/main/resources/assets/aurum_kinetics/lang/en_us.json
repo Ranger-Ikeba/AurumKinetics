@@ -1,0 +1,16 @@
+{
+  "item.aurum_kinetics.gold_coating": "Gold Coating",
+  "item.aurum_kinetics.quartz_coating": "Quartz Coating",
+  "item.aurum_kinetics.blue_coating": "Blue Gold Coating",
+  "itemGroup.aurum_kinetics": "Aurum Kinetics",
+  "message.aurum_kinetics.coating_enhanced": "Coating enhanced!",
+  "advancements.aurum_kinetics.bling.title": "Bling!",
+  "advancements.aurum_kinetics.bling.description": "Craft a Gold Coating",
+  "advancements.aurum_kinetics.moon_glow.title": "Moon Glow",
+  "advancements.aurum_kinetics.moon_glow.description": "Enhance Gold Coating with Quartz",
+  "advancements.aurum_kinetics.enchantment.title": "Enchantment",
+  "advancements.aurum_kinetics.enchantment.description": "Enhance Gold Coating with Lapis Lazuli",
+  "message.aurum_kinetics.piglin_tamed": "The Piglin accepts your gold!",
+  "advancements.aurum_kinetics.piglin_friend.title": "Golden Handshake",
+  "advancements.aurum_kinetics.piglin_friend.description": "Tame a Piglin with gold"
+}

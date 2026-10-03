@@ -1,0 +1,28 @@
+{
+  "parent": "aurum_kinetics:bling",
+  "display": {
+    "icon": {
+      "item": "aurum_kinetics:blue_coating"
+    },
+    "title": {
+      "translate": "advancements.aurum_kinetics.enchantment.title"
+    },
+    "description": {
+      "translate": "advancements.aurum_kinetics.enchantment.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "impossible"
+    ]
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "item.aurum_kinetics.gold_coating": "Золотое покрытие",
+  "item.aurum_kinetics.quartz_coating": "Кварцевое покрытие",
+  "item.aurum_kinetics.blue_coating": "Покрытие из синего золота",
+  "itemGroup.aurum_kinetics": "Aurum Kinetics",
+  "message.aurum_kinetics.coating_enhanced": "Покрытие улучшено!",
+  "advancements.aurum_kinetics.bling.title": "Блестяшка",
+  "advancements.aurum_kinetics.bling.description": "Скрафтите золотое покрытие",
+  "advancements.aurum_kinetics.moon_glow.title": "Лунный блеск",
+  "advancements.aurum_kinetics.moon_glow.description": "Улучшите золотое покрытие кварцем",
+  "advancements.aurum_kinetics.enchantment.title": "Очарование",
+  "advancements.aurum_kinetics.enchantment.description": "Улучшите золотое покрытие лазуритом",
+  "message.aurum_kinetics.piglin_tamed": "Пиглин принял ваше золото!",
+  "advancements.aurum_kinetics.piglin_friend.title": "Золотое рукопожатие",
+  "advancements.aurum_kinetics.piglin_friend.description": "Приручите пиглина золотом"
+}
