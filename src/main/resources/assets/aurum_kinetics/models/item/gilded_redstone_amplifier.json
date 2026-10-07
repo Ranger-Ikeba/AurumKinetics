@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "aurum_kinetics:block/gilded_redstone_amplifier"
+  }
+}

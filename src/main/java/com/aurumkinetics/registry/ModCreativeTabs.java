@@ -21,10 +21,12 @@ public class ModCreativeTabs {
                         output.accept(ModItems.GOLD_COATING.get());
                         output.accept(ModItems.QUARTZ_COATING.get());
                         output.accept(ModItems.BLUE_COATING.get());
+                        output.accept(ModItems.GILDED_REDSTONE.get());
+                        output.accept(ModItems.GOLD_SPEEDUP.get());
+                        output.accept(ModItems.QUARTZ_SPEEDUP.get());
+                        output.accept(ModItems.AZURE_SPEEDUP.get());
                     })
                     .build());
 
-    public static void register(IEventBus bus) {
-        TABS.register(bus);
-    }
+    public static void register(IEventBus bus) { TABS.register(bus); }
 }

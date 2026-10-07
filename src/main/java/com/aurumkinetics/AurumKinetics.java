@@ -1,5 +1,6 @@
 package com.aurumkinetics;
 
+import com.aurumkinetics.network.ModNetwork;
 import com.aurumkinetics.registry.*;
 import com.mojang.logging.LogUtils;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -15,8 +16,12 @@ public class AurumKinetics {
     public AurumKinetics() {
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
         ModItems.register(bus);
+        ModBlocks.register(bus);
         ModEntities.register(bus);
         ModCreativeTabs.register(bus);
+
+        ModNetwork.register();
+
         LOGGER.info("Aurum Kinetics loaded.");
     }
 }

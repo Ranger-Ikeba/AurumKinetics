@@ -5,8 +5,10 @@ import com.aurumkinetics.trade.PiglinMerchantMenu;
 import com.aurumkinetics.trade.PiglinMerchantMenuProvider;
 import com.aurumkinetics.trade.PiglinTradeData;
 import com.aurumkinetics.trade.SimplePiglinMerchant;
+import net.minecraft.advancements.Advancement;
 import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.network.protocol.game.ClientboundMerchantOffersPacket;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.sounds.SoundEvents;
@@ -18,6 +20,7 @@ import net.minecraft.world.entity.monster.piglin.PiglinBrute;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
+import net.minecraft.world.phys.AABB;
 import net.minecraftforge.event.entity.living.LivingHurtEvent;
 import net.minecraftforge.event.entity.player.PlayerInteractEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -50,7 +53,6 @@ public class PiglinTradeEvents {
 
         SimplePiglinMerchant merchant = new SimplePiglinMerchant(piglin, data);
         merchant.setTradingPlayer(sp);
-
         sp.openMenu(new PiglinMerchantMenuProvider(merchant));
 
         if (sp.containerMenu instanceof net.minecraft.world.inventory.MerchantMenu menu) {
@@ -59,8 +61,7 @@ public class PiglinTradeEvents {
                     data.offers,
                     Math.max(1, data.level),
                     data.xp,
-                    true,
-                    true));
+                    true, true));
         }
     }
 
@@ -95,5 +96,13 @@ public class PiglinTradeEvents {
                 piglin.getSoundSource(), 1.0f, 1.0f);
         piglin.setTarget(null);
         piglin.setLastHurtByMob(null);
+
+        // Выдать достижение "Золотое рукопожатие" всем игрокам в радиусе 16 блоков
+        AABB area = piglin.getBoundingBox().inflate(16);
+        for (ServerPlayer sp : level.getEntitiesOfClass(ServerPlayer.class, area)) {
+            ResourceLocation id = new ResourceLocation(AurumKinetics.MOD_ID, "piglin_friend");
+            Advancement adv = sp.server.getAdvancements().getAdvancement(id);
+            if (adv != null) sp.getAdvancements().award(adv, "impossible");
+        }
     }
 }

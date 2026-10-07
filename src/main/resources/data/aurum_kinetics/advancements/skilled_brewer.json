@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:story/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:brewing_stand"
+    },
+    "title": {
+      "translate": "advancements.aurum_kinetics.skilled_brewer.title"
+    },
+    "description": {
+      "translate": "advancements.aurum_kinetics.skilled_brewer.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "impossible"
+    ]
+  ]
+}

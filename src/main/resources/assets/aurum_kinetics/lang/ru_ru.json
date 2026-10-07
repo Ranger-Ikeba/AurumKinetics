@@ -12,5 +12,17 @@
   "advancements.aurum_kinetics.enchantment.description": "Улучшите золотое покрытие лазуритом",
   "message.aurum_kinetics.piglin_tamed": "Пиглин принял ваше золото!",
   "advancements.aurum_kinetics.piglin_friend.title": "Золотое рукопожатие",
-  "advancements.aurum_kinetics.piglin_friend.description": "Приручите пиглина золотом"
+  "advancements.aurum_kinetics.piglin_friend.description": "Приручите пиглина золотом",
+  "item.aurum_kinetics.gilded_redstone": "Золочёный редстоун",
+  "item.aurum_kinetics.gold_speedup": "Золотой ускоритель",
+  "item.aurum_kinetics.quartz_speedup": "Кварцевый ускоритель",
+  "item.aurum_kinetics.azure_speedup": "Лазуритовый ускоритель",
+  "advancements.aurum_kinetics.speed.title": "Скорость",
+  "advancements.aurum_kinetics.speed.description": "Скрафтите кварцевый ускоритель",
+  "advancements.aurum_kinetics.efficiency.title": "Эффективность",
+  "advancements.aurum_kinetics.efficiency.description": "Скрафтите золотой ускоритель",
+  "advancements.aurum_kinetics.productivity.title": "Продуктивность",
+  "advancements.aurum_kinetics.productivity.description": "Скрафтите лазуритовый ускоритель",
+  "advancements.aurum_kinetics.skilled_brewer.title": "Умелый зельевар",
+  "advancements.aurum_kinetics.skilled_brewer.description": "Сварите 42 зелья в улучшенной зельеварке"
 }

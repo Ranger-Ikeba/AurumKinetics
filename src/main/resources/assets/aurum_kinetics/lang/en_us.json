@@ -12,5 +12,17 @@
   "advancements.aurum_kinetics.enchantment.description": "Enhance Gold Coating with Lapis Lazuli",
   "message.aurum_kinetics.piglin_tamed": "The Piglin accepts your gold!",
   "advancements.aurum_kinetics.piglin_friend.title": "Golden Handshake",
-  "advancements.aurum_kinetics.piglin_friend.description": "Tame a Piglin with gold"
+  "advancements.aurum_kinetics.piglin_friend.description": "Tame a Piglin with gold",
+  "item.aurum_kinetics.gilded_redstone": "Gilded Redstone",
+  "item.aurum_kinetics.gold_speedup": "Golden Speedup",
+  "item.aurum_kinetics.quartz_speedup": "Quartz Speedup",
+  "item.aurum_kinetics.azure_speedup": "Azure Speedup",
+  "advancements.aurum_kinetics.speed.title": "Speed",
+  "advancements.aurum_kinetics.speed.description": "Craft a Quartz Speedup",
+  "advancements.aurum_kinetics.efficiency.title": "Efficiency",
+  "advancements.aurum_kinetics.efficiency.description": "Craft a Golden Speedup",
+  "advancements.aurum_kinetics.productivity.title": "Productivity",
+  "advancements.aurum_kinetics.productivity.description": "Craft an Azure Speedup",
+  "advancements.aurum_kinetics.skilled_brewer.title": "Skilled Brewer",
+  "advancements.aurum_kinetics.skilled_brewer.description": "Brew 42 potions in an upgraded Brewing Stand"
 }

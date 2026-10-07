@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GRG",
+    "RXR",
+    "GRG"
+  ],
+  "key": {
+    "G": {
+      "item": "aurum_kinetics:gold_coating"
+    },
+    "R": {
+      "item": "aurum_kinetics:gilded_redstone"
+    },
+    "X": {
+      "item": "minecraft:lapis_lazuli"
+    }
+  },
+  "result": {
+    "item": "aurum_kinetics:azure_speedup",
+    "count": 1
+  }
+}

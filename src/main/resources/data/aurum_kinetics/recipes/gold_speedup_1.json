@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " R ",
+    "RCR",
+    " R "
+  ],
+  "key": {
+    "R": {
+      "item": "aurum_kinetics:gilded_redstone"
+    },
+    "C": {
+      "item": "aurum_kinetics:gold_coating"
+    }
+  },
+  "result": {
+    "item": "aurum_kinetics:gold_speedup",
+    "count": 1
+  }
+}

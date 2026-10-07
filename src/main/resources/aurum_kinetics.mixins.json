@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.aurumkinetics.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "AbstractFurnaceBlockEntityMixin",
+    "BrewingStandBlockEntityMixin"
+  ],
+  "client": [
+    "client.AbstractFurnaceScreenMixin",
+    "client.BrewingStandScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
